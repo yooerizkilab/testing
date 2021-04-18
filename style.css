@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #65d16b;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.section {
+    width: 100%;
+    border-style: dashed;
+    height: 500px;
+}
+
+.sidebar-left {
+    width: 20%;
+    height: 100%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.content {
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    position: relative;
+    background-color: #2196F3;
+}
+
+.sidebar-right {
+    width: 20%;
+    height: 100%;
+    background-color: greenyellow;
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #65d16b;
+    color: black;
+    text-align: center;
+}
